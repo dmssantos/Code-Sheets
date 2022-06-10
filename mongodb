@@ -1,0 +1,27 @@
+
+iniciar mongodb:
+sudo systemctl start mongod
+
+iniciar shell mongodb:
+mongo
+
+verificar o status:
+sudo systemctl status mongod
+
+parar mongodb:
+sudo systemctl stop mongod
+
+restart mongodb:
+sudo systemctl restart mongod
+
+habiliter o serviço MongoDB para iniciar durante a inicialização:
+sudo systemctl enable mongod
+
+listar dbs:
+show databases
+
+criar db:
+use <name_db>
+
+
+

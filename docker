@@ -1,0 +1,12 @@
+docker run
+
+docker stop <name_container>
+
+docker start <name_container>
+
+docker exec -it <name-Container> bash
+
+docker rm -f <name_container>
+
+docker ps
+

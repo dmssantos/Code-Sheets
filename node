@@ -1,0 +1,18 @@
+install node com typescript
+npm i typescript @types/node ts-node-dev -D
+
+criar tsconfig.json
+npx tsc --init
+
+configurar pasta tsconfig.json:
+"target": "es2017",
+"rootDir": "./src", 
+"outDir": "./dist", 
+
+configurar packege.json:
+"dev": "ts-node-dev src/server.ts"
+
+instalar express:
+npm i express
+npm i -D @types/express
+
